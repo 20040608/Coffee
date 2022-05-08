@@ -1215,16 +1215,7 @@ img {
 .box-main {
   width: 200px;
   height: 220px;
-  background: #C5DBCF;
-  padding: 30px 16px;
-  margin: 9px;
-}
-
-.box-main:hover {
-  width: 200px;
-  height: 220px;
-  color: #FFFFFF;
-  background: #0A775F;
+  background: #82be9d;
   padding: 30px 16px;
   margin: 9px;
 }
@@ -1236,28 +1227,19 @@ img {
   font-size: 24px;
   line-height: 28px;
   font-variant: small-caps;
-  color: #000;
+  color: #fff;
 }
 
-.box-main-in:hover {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  font-variant: small-caps;
+.box-label > input:checked ~ .box-main {
+  width: 200px;
+  height: 220px;
+  background: #0A775F;
+  padding: 30px 16px;
+  margin: 9px;
   color: #fff;
 }
 
 .box-main-go {
-  margin: 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  color: #000;
-}
-
-.box-main-go:hover {
   margin: 0;
   font-weight: 400;
   font-size: 18px;
@@ -1307,6 +1289,24 @@ img {
   color: #FFFFFF;
   background: #0A775F;
   border-radius: 100px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  ._there-main-there-box {
+    background-image: url("../images/qum2@2x.png");
+  }
+  ._there-main-there-box::before {
+    background-image: url("../images/ot@2x.png");
+  }
+  ._there-main-there-box-in--go-in {
+    background-image: url("../images/chiziq@2x.png");
+  }
+  .box::before {
+    background-image: url("../images/ot2@2x.png");
+  }
+  .box-in__go::before {
+    background-image: url("../images/ot3@2x.png");
+  }
 }
 
 .main-four__inner {

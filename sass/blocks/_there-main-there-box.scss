@@ -146,19 +146,11 @@
 .box-main {
   width: 200px;
   height: 220px;
-  background: #C5DBCF;
+  background: #82be9d;
   padding: 30px 16px;
   margin: 9px;
 }
 
-.box-main:hover  {
-  width: 200px;
-  height: 220px;
-  color: #FFFFFF;
-  background: #0A775F;
-  padding: 30px 16px;
-  margin: 9px;
-}
 
 .box-main-in {
   margin-top: 0;
@@ -167,16 +159,15 @@
   font-size: 24px;
   line-height: 28px;
   font-variant: small-caps;
-  color: #000;
+  color: #fff;
 }
 
-.box-main-in:hover {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  font-variant: small-caps;
+.box-label>input:checked ~ .box-main {
+  width: 200px;
+  height: 220px;
+  background: #0A775F;
+  padding: 30px 16px;
+  margin: 9px;
   color: #fff;
 }
 
@@ -185,16 +176,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-  color: #000;
-}
-
-.box-main-go:hover {
-  margin: 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
   color: #fff;
 }
+
+
 
 .box-item {
   margin-bottom: 20px;
