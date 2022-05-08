@@ -1,0 +1,45 @@
+.main-four__inner-in {
+  margin: 15px 15px 20px 15px;
+  background-image: url('../images/qum.png');
+  background-repeat: repeat;
+  background-size: 100%;
+  background-color: #096A55;
+  background-blend-mode: overlay;
+  opacity: 0.9;
+}
+
+.main-four-box-item_there{
+  padding-top: 80px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-image: url('../images/chiziq.png');
+  background-repeat: no-repeat;
+  background-position: bottom 48px left 40px;
+}
+
+.main-four-box-title_there{
+  list-style: none;
+  margin: 0;
+  padding: 0 0 80px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .main-four__inner-in {
+    background-image: url('../images/qum@2x.png');
+  }
+
+  .main-four-box-item {
+    background-image: url('../images/chiziq@2x.png');
+  }
+  
+} 
